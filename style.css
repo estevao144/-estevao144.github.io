@@ -10,22 +10,59 @@ h3{
     background-color: #82dbd8;
 }
 
+.bloco1{
+left: 0;
+color: white;
+width: 80%;
+height: 80%;
+margin-bottom: 30%;
+
+
+}
+.bloco2{
+    left: 0;
+    color: white;
+    width: 80%;
+    height: 80%;
+    margin-bottom: 0%;
+    display: flex;
+    
+    }
+    
+.titulo{
+    text-align: center;
+    z-index: 3;
+   
+}
+
 body{
     background-color: #2F8F9D ;
     font-family: "Poppins", sans-serif;
     color: #FFFFFF;
     font-size: 20px;
 }
+
+.paragrafo{
+    text-align: left;
+    top: 350px;
+    position: absolute;
+    left: 200px;
+    z-index: 2;
     
-.imagem-redonda{
-    border-radius: 40%;
-    margin: auto;
-  
-}
-.alinhacenter{
-   text-align: center;
 
 }
+
+.imagem-redonda{
+    border-radius: 40%;
+    width: 200px;
+    top: 300px;
+    left: 15px;
+    float: left;
+    z-index: 1;
+}
+
+
+
 .BUTTON_NIQ {
 background: #3D94F6;
 background-image: -webkit-linear-gradient(top, #3D94F6, #1E62D0);
