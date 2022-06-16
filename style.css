@@ -8,6 +8,8 @@ h1{
 h3{
     color: #FFFFFF;
     background-color: #82dbd8;
+    text-align: center;
+    z-index: auto;
 }
 
 .bloco1{
@@ -20,8 +22,7 @@ margin-bottom: 30%;
 
 }
 .bloco2{
-    left: 0;
-    color: white;
+    
     width: 80%;
     height: 80%;
     margin-bottom: 0%;
@@ -29,12 +30,6 @@ margin-bottom: 30%;
     
     }
     
-.titulo{
-    text-align: center;
-    z-index: 3;
-   
-}
-
 body{
     background-color: #2F8F9D ;
     font-family: "Poppins", sans-serif;
@@ -44,12 +39,11 @@ body{
 
 .paragrafo{
     text-align: left;
-    top: 350px;
-    position: absolute;
+    top: 400px;
     left: 200px;
+    float:auto;
     z-index: 2;
-    
-
+    overflow: auto;
 }
 
 .imagem-redonda{
