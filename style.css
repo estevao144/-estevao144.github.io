@@ -30,10 +30,10 @@ body{
 
 .nav-links li{
     display:inline-block;
-     
-     
+}
 
-
+section{
+    border: solid red;
 }
 
 li{}
@@ -60,11 +60,11 @@ main{
     
 }
 
-.main.lateral{
+.main .lateral{
     float: left;
 }
 
-.main.sessao{
+.main .sessao{
  right: 200px;
  border: solid red;
 
